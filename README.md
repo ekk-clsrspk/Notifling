@@ -51,6 +51,7 @@ firewall rule (needs one elevated run — rerun as Admin if it warns).
 | `android/` | Kotlin app (UI, listener service, UDP sender, QR scan). Key in EncryptedSharedPreferences |
 | `windows/` | Go exe (UDP listener, toast, QR generation). Key in `%APPDATA%\Notifling\config.json` |
 | `tools/install-startup.ps1` | Autostart installer |
+| `assets/` | Hand-drawn logo (`icon.png`, `notifling.ico` for shortcuts) |
 | `docs/protocol.md` | v1 wire protocol |
 | `dist/` | Local builds only (gitignored) |
 
