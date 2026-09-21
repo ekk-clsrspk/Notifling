@@ -1,0 +1,24 @@
+# Binaries & local dist
+dist/
+*.exe
+*.apk
+*.aab
+
+# Android / Gradle
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/captures/
+*.iml
+.idea/
+.gradle/
+
+# Go
+windows/*.test
+windows/*.out
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store

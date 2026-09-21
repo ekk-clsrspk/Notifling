@@ -1,0 +1,6 @@
+# Keep Windows scripts CRLF, gradlew LF, everywhere else default.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+gradlew text eol=lf
+*.png binary
+*.jar binary
